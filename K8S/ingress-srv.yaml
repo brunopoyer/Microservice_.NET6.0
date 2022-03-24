@@ -21,6 +21,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: command-clusterip-srv
+                name: commands-clusterip-srv
                 port:
                   number: 80
